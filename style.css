@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: lightyellow;
+}
+
+button {
+    padding: 8px 16px;
+    width: 80px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 360px;
+    padding: 24px;
+    gap: 32px;
+    margin-top: 80px;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 80px;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: right;
+    background-color: lightyellow;
+}
+
+#history {
+    font-size: 18px;
+}
+
+#calculation {
+    font-size: 22px;
+}
+
+.button-grid {
+    display: flex;
+    flex-basis: 380px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.num-button {
+    background-color: rgb(224, 206, 182);
+}
+
+.operator-button,
+#delete {
+    background-color: lightsalmon;
+}
+
+#dot-button,
+#equals-button {
+    background-color: lightyellow;
+}
+
+#clear,
+#delete {
+    width: 174px;
+}
+
+#clear {
+    background-color: gainsboro;
+}
